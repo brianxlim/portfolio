@@ -3,7 +3,14 @@ function About() {
         <div>
             <p className="mb-4">
                 <span>I am a student at the </span>
-                <a className="font-boldWithLink" href="https://www.nus.edu.sg/">National University of Singapore,</a>
+                <a
+                    className="font-boldWithLink"
+                    href="https://www.nus.edu.sg/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
+                    National University of Singapore,
+                </a>
                 <span> pursuing a double-degree programme Business Analytics and Economics. My courses have given me a broad skillset comprising data analytics, machine learning, programming and econometrics. From them, I have developed an acute interest in turning data into insights to solve real-world problems.</span>
             </p>
             <p className="mb-4">
@@ -11,9 +18,23 @@ function About() {
             </p>
             <p className="mb-4">
                 <span>I have gained valuable experience through internships and projects, where I applied my skills in real-world settings. During my internship at a </span>
-                <a className="font-boldWithLink" href="https://www.linkedin.com/posts/brianxlim_grateful-internship-factorem-activity-7226543170342248448-6DXy/">start-up</a>
+                <a
+                    className="font-boldWithLink"
+                    href="https://www.linkedin.com/posts/brianxlim_grateful-internship-factorem-activity-7226543170342248448-6DXy/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
+                    start-up
+                </a>
                 <span> , I worked on projects such as building dashboards and creating ETL pipelines. I have also created various applications in small functional teams, such as a football analytics application, </span>
-                <a className="font-boldWithLink" href="https://github.com/OrbiGoal/OrbiGoal">OrbiGoal</a>
+                <a
+                    className="font-boldWithLink"
+                    href="https://github.com/OrbiGoal/OrbiGoal"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
+                    OrbiGoal
+                </a>
                 <span> that allowed me to pick up crucial soft skills such as teamwork.</span>
             </p>
             <p className="mb-4">

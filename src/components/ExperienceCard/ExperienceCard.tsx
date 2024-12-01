@@ -19,7 +19,12 @@ function ExperienceCard(props: ExperienceProps) {
                 <div className="z-10 sm:col-span-6">
                     <h3 className="font-medium leading-snug text-slate-200">
                         <div>
-                            <a className="inline-flex mb-4 items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href={props.url}>
+                            <a
+                                className="inline-flex mb-4 items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                                href={props.url}
+                                target="_blank"
+                                rel="noreferrer noopener"
+                            >
                                 <span>{props.role} • {props.location}</span>
                                 <BoxArrowUpRight className="w-4 ml-2" />
                             </a>
