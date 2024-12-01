@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .font-boldWithLink {
+        @apply font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300;
+    }
+}
