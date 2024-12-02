@@ -23,7 +23,7 @@ function Experience() {
             <div className="group mt-12">
                 <a
                     className="inline-flex items-baseline leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold group/link text-base"
-                    href="/src/assets/resume.pdf"
+                    href="/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

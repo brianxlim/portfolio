@@ -3,7 +3,7 @@ import projects from "../assets/projects/projects.json"
 import ProjectCard from "../components/ProjectCard/ProjectCard"
 
 function Projects() {
-    const projectAssetsDir = "/src/assets/projects/";
+    const projectAssetsDir = "/projects/";
 
     return (
         <div>
