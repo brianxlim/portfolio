@@ -16,6 +16,7 @@ function Experience() {
                         location={experience.location}
                         description={experience.description}
                         techStack={experience.techStack}
+                        details={experience.details}
                     />
                 ))}
             </ol>

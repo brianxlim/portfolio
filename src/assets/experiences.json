@@ -14,6 +14,12 @@
                 "SQL",
                 "Docker",
                 "TypeScript"
+            ],
+            "details": [
+                {
+                    "label": "Birthday Bot",
+                    "link": "https://github.com/Garuda-Techs/GaruBdayBot"
+                }
             ]
         },
         {
@@ -31,7 +37,8 @@
                 "Vaex",
                 "R",
                 "Google Cloud Platform"
-            ]
+            ],
+            "details": []
         },
         {
             "startYear": "2023/08",
@@ -43,7 +50,8 @@
             "techStack": [
                 "Figma",
                 "Storytelling"
-            ]
+            ],
+            "details": []
         }
     ]
 }

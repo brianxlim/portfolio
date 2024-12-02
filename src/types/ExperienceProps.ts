@@ -1,3 +1,8 @@
+interface ExperienceDetail {
+    label: string;
+    link: string;
+}
+
 interface ExperienceProps {
     startYear: string;
     endYear: string;
@@ -6,6 +11,7 @@ interface ExperienceProps {
     location: string;
     description: string;
     techStack: string[];
+    details?: ExperienceDetail[];
 }
 
 export default ExperienceProps
