@@ -19,7 +19,7 @@ function Experience() {
                     />
                 ))}
             </ol>
-            <div className="mt-12">
+            <div className="group mt-12">
                 <a
                     className="inline-flex items-baseline leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold group/link text-base"
                     href="/src/assets/resume.pdf"
@@ -27,7 +27,7 @@ function Experience() {
                     rel="noopener noreferrer"
                 >
                     <span>View Full Resume</span>
-                    <BoxArrowUpRight className="w-4 ml-2" />
+                    <BoxArrowUpRight className="w-4 ml-2 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform duration-150 ease-in-out" />
                 </a>
             </div>
         </div>
