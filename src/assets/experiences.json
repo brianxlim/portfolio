@@ -1,0 +1,57 @@
+{
+    "experiences": [
+        {
+            "startYear": "2024/08",
+            "endYear": "PRESENT",
+            "role": "Software Developer",
+            "url": "https://capt.nus.edu.sg/",
+            "location": "College of Alice and Peter Tan",
+            "description": "Learnt and built Telegram bots for the house of Garuda in College of Alice and Peter Tan (CAPT) as part of house committee efforts. Worked closely with the different sub-committees to leverage technology that contributed to the success of different events. Taught juniors how to implement simple, but key practices when building applications.",
+            "techStack": [
+                "Python",
+                "React",
+                "Tailwind",
+                "SQL",
+                "Docker",
+                "TypeScript"
+            ],
+            "details": [
+                {
+                    "label": "Birthday Bot",
+                    "link": "https://github.com/Garuda-Techs/GaruBdayBot"
+                }
+            ]
+        },
+        {
+            "startYear": "2024/05",
+            "endYear": "2024/08",
+            "role": "Data Scientist, R&D",
+            "url": "https://www.factorem.co/",
+            "location": "Factorem",
+            "description": "Designed effective SQL queries to extract and manipulate data for business insights and reporting. Engineered data pipeline and implemented data transformation processes to convert raw data into meaningful insights. Provided data-backed insights to identify weak points in supply chain, thereafter sourcing for partners with similar capabilities based on crucial metrics identified. Collaborated with other developers and team members to ensure thoughtful and consistent user experiences.",
+            "techStack": [
+                "Python",
+                "Docker",
+                "DuckDB",
+                "SQL",
+                "Vaex",
+                "R",
+                "Google Cloud Platform"
+            ],
+            "details": []
+        },
+        {
+            "startYear": "2023/08",
+            "endYear": "2023/11",
+            "role": "Creative Technologist",
+            "url": "https://www.instagram.com/thedoodlingstory/",
+            "location": "Social Impact Catalyst",
+            "description": "Created a lo-fi front-end prototype for online application for budding local artists to promote their artwork. Learnt and implemented good UI/UX design practises to ensure smooth workflow. Eventually attained top 5 positions in Social Impact Catalyst case competition.",
+            "techStack": [
+                "Figma",
+                "Storytelling"
+            ],
+            "details": []
+        }
+    ]
+}

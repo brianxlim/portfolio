@@ -39,29 +39,34 @@ function About() {
             </p>
             <p className="mb-4">
                 <span>In my spare time, you can find me </span>
-                <a className="font-boldWithLink" href="https://www.instagram.com/p/C-1thMnyHRC/?img_index=3">
+                <a
+                    className="font-boldWithLink"
+                    href="https://www.instagram.com/p/C-1thMnyHRC/?img_index=3"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
                     practising Judo
                 </a>
                 <span>, working out in the gym, hanging out with my friends at CAPT, or completing side quests with </span>
                 <span className="group/kratos inline-flex lg:cursor-[url('../src/assets/kratos-small.png'),_pointer] lg:font-medium lg:text-slate-200">
                     <span className="sr-only">Kratos and Atreus.</span>
-                    <span className="group-hover/kratos:text-red-700  font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[50ms]">K</span>
-                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink  transition duration-75 group-hover/kratos:-translate-y-px delay-[75ms]">r</span>
-                    <span className="group-hover/kratos:text-red-700  font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[100ms]">a</span>
-                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink  transition duration-75 group-hover/kratos:-translate-y-px delay-[125ms]">t</span>
-                    <span className="group-hover/kratos:text-red-700  font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[150ms]">o</span>
-                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink  transition duration-75 group-hover/kratos:-translate-y-px delay-[175ms]">s</span>
-                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink  transition duration-75 group-hover/kratos:-translate-y-px delay-[175ms]">&nbsp;</span>
-                    <span className="group-hover/kratos:text-red-700  font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[200ms]">a</span>
-                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink  transition duration-75 group-hover/kratos:-translate-y-px delay-[225ms]">n</span>
-                    <span className="group-hover/kratos:text-red-700  font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[250ms]">d</span>
-                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink  transition duration-75 group-hover/kratos:-translate-y-px delay-[250ms]">&nbsp;</span>
-                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink  transition duration-75 group-hover/kratos:-translate-y-px delay-[275ms]">A</span>
-                    <span className="group-hover/kratos:text-red-700  font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[300ms]">t</span>
-                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink  transition duration-75 group-hover/kratos:-translate-y-px delay-[325ms]">r</span>
-                    <span className="group-hover/kratos:text-red-700  font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[350ms]">e</span>
-                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink  transition duration-75 group-hover/kratos:-translate-y-px delay-[375ms]">u</span>
-                    <span className="group-hover/kratos:text-red-700  font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[400ms]">s</span>
+                    <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[50ms]">K</span>
+                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[75ms]">r</span>
+                    <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[100ms]">a</span>
+                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[125ms]">t</span>
+                    <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[150ms]">o</span>
+                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[175ms]">s</span>
+                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[175ms]">&nbsp;</span>
+                    <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[200ms]">a</span>
+                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[225ms]">n</span>
+                    <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[250ms]">d</span>
+                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[250ms]">&nbsp;</span>
+                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[275ms]">A</span>
+                    <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[300ms]">t</span>
+                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[325ms]">r</span>
+                    <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[350ms]">e</span>
+                    <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[375ms]">u</span>
+                    <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[400ms]">s</span>
                 </span>
             </p>
         </div >

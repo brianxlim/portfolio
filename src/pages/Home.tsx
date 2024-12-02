@@ -5,6 +5,7 @@ import About from "./About"
 import Experience from "./Experience"
 import Projects from "./Projects"
 import SocialBar from "../components/SocialBar/SocialBar"
+import Footer from "../components/Footer"
 
 function Home() {
     return (
@@ -18,7 +19,6 @@ function Home() {
                         </div>
                         <SocialBar />
                     </header>
-
                     <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
                         <Section
                             id="about"
@@ -35,6 +35,7 @@ function Home() {
                             header="Projects"
                             content={<Projects />}
                         />
+                        <Footer />
                     </main>
                 </div>
             </div>
