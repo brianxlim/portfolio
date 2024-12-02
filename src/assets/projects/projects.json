@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "title": "OrbiGoal",
+            "description": "A football analytics app built to provide in-depth match analysis and predictions using React Native and Firebase. It integrates machine learning with user-friendly interfaces to make data-driven insights accessible to football enthusiasts.",
+            "url": "https://youtu.be/FdemtcTx-UM",
+            "image": "images/orbitalThumbnail.png",
+            "imageAlt": "OrbiGoal Video Thumbnail",
+            "techStack": [
+                "React Native",
+                "TypeScript",
+                "Firebase",
+                "Pandas"
+            ]
+        },
+        {
+            "title": "Lounge Booking Bot",
+            "description": "A Telegram bot that streamlines the lounge booking process for students. Developed using Python and SQL, it provides an intuitive interface for reserving campus lounges, automating and simplifying booking logistics.",
+            "url": "https://t.me/LoungeBookingBot",
+            "image": "images/loungeBot.png",
+            "imageAlt": "Lounge Booking Bot Design",
+            "techStack": [
+                "Python",
+                "SQL"
+            ]
+        },
+        {
+            "title": "2D Fighting Game",
+            "description": "A 2D fighting game featuring custom-made characters and animations, developed from scratch using JavaScript, HTML, and CSS. Players can experience unique combat mechanics and an offline leaderboard system for competitive fun.",
+            "url": "https://youtu.be/rLWWF3zEsoY",
+            "image": "images/fightingGame.png",
+            "imageAlt": "Fighting Game Screenshot",
+            "techStack": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ]
+        }
+    ]
+}

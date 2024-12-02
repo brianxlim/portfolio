@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    background-color: #0f172a;
+}
+
 @layer components {
     .font-boldWithLink {
         @apply font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300;
