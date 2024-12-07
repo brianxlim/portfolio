@@ -13,7 +13,7 @@ This project is a portfolio website showcasing my skills, experiences and key pr
 - `git clone https://github.com/brianxlim/portfolio`
 
 **Navigate to the project directory:**
-- `cd portfolio-website`
+- `cd portfolio`
 
 **Install dependencies:**
 - `npm install` or `yarn install`
