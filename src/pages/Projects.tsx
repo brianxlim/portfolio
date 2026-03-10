@@ -1,14 +1,24 @@
+import { useState, useEffect } from "react";
 import { ArrowRight } from "react-bootstrap-icons";
-import projects from "../assets/projects/projects.json"
+import projectsUrl from "/projects/projects.json?url"
+import ProjectCardProps from "../types/ProjectCardProps"
 import ProjectCard from "../components/ProjectCard/ProjectCard"
 
 function Projects() {
     const projectAssetsDir = "/projects/";
+    const [projectsData, setProjectsData] = useState<ProjectCardProps[]>([]);
+
+    useEffect(() => {
+        fetch(projectsUrl)
+            .then(res => res.json())
+            .then(data => setProjectsData(data.projects))
+            .catch(err => console.error("Failed to load projects:", err));
+    }, []);
 
     return (
         <div>
             <ul className="group/list">
-                {projects.projects.map((project, index) => (
+                {projectsData.map((project, index) => (
                     <ProjectCard
                         key={index}
                         title={project.title}

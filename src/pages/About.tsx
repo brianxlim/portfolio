@@ -48,7 +48,7 @@ function About() {
                     practising Judo
                 </a>
                 <span>, working out in the gym, hanging out with my friends at CAPT, or completing side quests with </span>
-                <span className="group/kratos inline-flex lg:cursor-[url('../src/assets/kratos-small.png'),_pointer] lg:font-medium lg:text-slate-200">
+                <span className="group/kratos inline-flex lg:cursor-[url('/kratos-small.png'),_pointer] lg:font-medium lg:text-slate-200">
                     <span className="sr-only">Kratos and Atreus.</span>
                     <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[50ms]">K</span>
                     <span className="group-hover/kratos:text-gray-400 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[75ms]">r</span>

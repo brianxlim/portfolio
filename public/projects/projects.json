@@ -14,6 +14,17 @@
             ]
         },
         {
+            "title": "Social Impact Catalyst",
+            "description": "Created a lo-fi front-end prototype for online application for budding local artists to promote their artwork. Learnt and implemented good UI/UX design practises to ensure smooth workflow. Eventually attained top 5 positions in Social Impact Catalyst case competition.",
+            "url": "https://www.instagram.com/thedoodlingstory/",
+            "image": "images/sic.png",
+            "imageAlt": "Social Impact Catalyst",
+            "techStack": [
+                "Figma",
+                "Storytelling"
+            ]
+        },
+        {
             "title": "Lounge Booking Bot",
             "description": "A Telegram bot that streamlines the lounge booking process for students. Developed using Python and SQL, it provides an intuitive interface for reserving campus lounges, automating and simplifying booking logistics.",
             "url": "https://t.me/LoungeBookingBot",

@@ -1,12 +1,23 @@
+import { useState, useEffect } from "react";
 import { BoxArrowUpRight } from "react-bootstrap-icons"
-import experiences from "../assets/experiences.json"
+import experiencesUrl from "/experiences.json?url"
+import ExperienceProps from "../types/ExperienceProps"
 import ExperienceCard from "../components/ExperienceCard/ExperienceCard"
 
 function Experience() {
+    const [experiencesData, setExperiencesData] = useState<ExperienceProps[]>([]);
+
+    useEffect(() => {
+        fetch(experiencesUrl)
+            .then(res => res.json())
+            .then(data => setExperiencesData(data.experiences))
+            .catch(err => console.error("Failed to load experiences:", err));
+    }, []);
+
     return (
         <div>
             <ol className="group/list">
-                {experiences.experiences.map((experience, index) => (
+                {experiencesData.map((experience, index) => (
                     <ExperienceCard
                         key={index}
                         startYear={experience.startYear}

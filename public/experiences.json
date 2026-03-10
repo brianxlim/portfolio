@@ -1,0 +1,91 @@
+{
+    "experiences": [
+        {
+            "startYear": "2025/08",
+            "endYear": "PRESENT",
+            "role": "Software Engineer Intern",
+            "url": "https://trax.co/",
+            "location": "Trax",
+            "description": "Architected full stack software engineering projects with experience in database design, backend systems and Cloud deployment.",
+            "techStack": [
+                "Node.js",
+                "JavaScript",
+                "Express",
+                "SQL",
+                "Docker",
+                "Flower",
+                "Celery",
+                "PostgreSQL",
+                "Google Cloud Run",
+                "Google Cloud Scheduler",
+                "GraphQL",
+                "Redis",
+                "Vue",
+                "Figma"
+            ],
+            "details": [
+                {
+                    "label": "Trax Codes Platform",
+                    "link": "https://app.trax.co/"
+                }
+            ]
+        },
+        {
+            "startYear": "2025/05",
+            "endYear": "2025/08",
+            "role": "Software Engineer Intern",
+            "url": "https://www.hellmann.com/en",
+            "location": "Hellmann Worldwide Logistics",
+            "description": "Developed mobile application with Microsoft cloud-based services such as Power Apps and Automate and web gamification platform with Next.js.",
+            "techStack": [
+                "Next.js",
+                "Power Apps",
+                "Power Automate",
+                "React",
+                "TypeScript",
+                "Snowflake"
+            ],
+            "details": [
+                {
+                    "label": "Birthday Bot",
+                    "link": "https://github.com/Garuda-Techs/GaruBdayBot"
+                }
+            ]
+        },
+        {
+            "startYear": "2024/08",
+            "endYear": "2025/05",
+            "role": "Student Software Developer",
+            "url": "https://capt.nus.edu.sg/",
+            "location": "College of Alice and Peter Tan",
+            "description": "Engineered Telegram bots for the house of Garuda in College of Alice and Peter Tan (CAPT) as part of house committee efforts. Worked closely with the different sub-committees to leverage technology that contributed to the success of different events.",
+            "techStack": [
+                "Python",
+                "React",
+                "Tailwind",
+                "SQL",
+                "Docker",
+                "TypeScript"
+            ],
+            "details": []
+        },
+        {
+            "startYear": "2024/05",
+            "endYear": "2024/08",
+            "role": "Data Scientist Intern",
+            "url": "https://www.factorem.co/",
+            "location": "Factorem",
+            "description": "Designed effective SQL queries to extract and manipulate data for business insights and reporting. Engineered data pipeline and implemented data transformation processes to convert raw data into meaningful insights. Provided data-backed insights to identify weak points in supply chain, thereafter sourcing for partners with similar capabilities based on crucial metrics identified. Collaborated with other developers and team members to ensure thoughtful and consistent user experiences.",
+            "techStack": [
+                "Python",
+                "Docker",
+                "DuckDB",
+                "SQL",
+                "Vaex",
+                "R",
+                "Google Cloud Platform"
+            ],
+            "details": []
+        }
+    ]
+}
