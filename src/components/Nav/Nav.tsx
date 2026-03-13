@@ -5,26 +5,29 @@ function Nav() {
     const [activeSection, setActiveSection] = useState<string>('about');
 
     useEffect(() => {
-        const sections = document.querySelectorAll('section');
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    setActiveSection(entry.target.id);
+        const handleScroll = () => {
+            const sections = document.querySelectorAll('section');
+            let current = 'about';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                // If the scroll position is past the section top minus some offset
+                if (window.scrollY >= sectionTop - window.innerHeight * 0.5) {
+                    if (section.id) {
+                        current = section.id;
+                    }
                 }
             });
-        }, {
-            threshold: 0.7, // Section must occupy 0.7 of screen before it is considered "in view"
-        });
+            
+            setActiveSection(current);
+        };
 
-        sections.forEach((section) => {
-            observer.observe(section);
-        });
+        window.addEventListener('scroll', handleScroll);
+        // initialize active section on mount
+        handleScroll();
 
         return () => {
-            sections.forEach((section) => {
-                observer.unobserve(section);
-            });
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
