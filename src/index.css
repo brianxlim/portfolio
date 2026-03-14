@@ -11,3 +11,12 @@
         @apply font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300;
     }
 }
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-100% - 1.5rem)); }
+}
+
+.animate-scroll {
+    animation: scroll 60s linear infinite;
+}

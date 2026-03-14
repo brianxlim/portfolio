@@ -1,3 +1,5 @@
+import SkillsShowcase from '../components/SkillsShowcase';
+
 function About() {
     return (
         <div>
@@ -9,7 +11,7 @@ function About() {
                     target="_blank"
                     rel="noreferrer noopener"
                 >
-                    National University of Singapore,
+                    National University of Singapore,&nbsp;
                 </a>
                 <span>
                     pursuing a double-degree programme in Business Analytics and Economics.
@@ -89,6 +91,7 @@ function About() {
                     <span className="group-hover/kratos:text-red-700 font-boldWithLink transition duration-75 group-hover/kratos:-translate-y-px delay-[400ms]">s</span>
                 </span>
             </p>
+            <SkillsShowcase />
         </div >
     )
 }

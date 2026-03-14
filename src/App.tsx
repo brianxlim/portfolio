@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 import Home from './pages/Home';
 import CursorBackground from './components/CursorBackground';
 import Archive from './pages/Archive';
+import Skills from './pages/Skills';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/archive" element={<Archive />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
     </BrowserRouter>
   )
