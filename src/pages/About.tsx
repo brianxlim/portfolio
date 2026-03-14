@@ -11,31 +11,51 @@ function About() {
                 >
                     National University of Singapore,
                 </a>
-                <span> pursuing a double-degree programme Business Analytics and Economics. My courses have given me a broad skillset comprising data analytics, machine learning, programming and econometrics. From them, I have developed an acute interest in turning data into insights to solve real-world problems.</span>
+                <span>
+                    pursuing a double-degree programme in Business Analytics and Economics.
+                    My courses have given me a broad skillset comprising data analytics, machine learning, programming and econometrics.
+                    From them, I have developed an acute interest in turning data into insights to solve real-world problems.
+                </span>
             </p>
             <p className="mb-4">
-                Aside from academics, I enjoy crafting user-centric digital applications with thoughtful user interfaces, ensuring they look great and have high performance. I am continuously learning new technologies and frameworks through various opportunities to tackle problems with creativity.
+                Through my projects, I find myself drawn to crafting user-centric digital applications with thoughtful user interfaces,
+                ensuring they look great and have high performance. 
+                I am continuously learning new technologies and frameworks through various opportunities to tackle problems with creativity.
             </p>
             <p className="mb-4">
-                <span>I have gained valuable experience through internships and projects, where I applied my skills in real-world settings. During my internship at a </span>
+                <span>
+                    I have gained valuable experience through internships and projects, where I applied my skills in real-world settings.
+                    Through my internships at&nbsp;
+                </span>
                 <a
                     className="font-boldWithLink"
                     href="https://www.linkedin.com/posts/brianxlim_grateful-internship-factorem-activity-7226543170342248448-6DXy/"
                     target="_blank"
                     rel="noreferrer noopener"
                 >
-                    start-up
-                </a>
-                <span> , I worked on projects such as building dashboards and creating ETL pipelines. I have also created various applications in small functional teams, such as a football analytics application, </span>
+                    Factorem
+                </a>,&nbsp;
                 <a
                     className="font-boldWithLink"
-                    href="https://github.com/OrbiGoal/OrbiGoal"
+                    href="https://hellmann.com/en"
                     target="_blank"
                     rel="noreferrer noopener"
                 >
-                    OrbiGoal
+                    Hellmann Worldwide Logistics
+                </a>&nbsp;and&nbsp;
+                <a
+                    className="font-boldWithLink"
+                    href="https://trax.co"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
+                    Trax Codes&nbsp;
                 </a>
-                <span> that allowed me to pick up crucial soft skills such as teamwork.</span>
+                <span>
+                    , I have gained a wide range of skills in full stack web development and data analytics.
+                    From building ETL pipelines, developing scalable REST APIs to improving CI-CD pipelines, 
+                    I have been exposed to the full software development lifecycle.
+                </span>
             </p>
             <p className="mb-4">
                 <span>In my spare time, you can find me </span>
