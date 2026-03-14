@@ -1,27 +1,27 @@
 {
     "projects": [
         {
-            "title": "OrbiGoal",
-            "description": "A football analytics app built to provide in-depth match analysis and predictions using React Native and Firebase. It integrates machine learning with user-friendly interfaces to make data-driven insights accessible to football enthusiasts.",
-            "url": "https://youtu.be/FdemtcTx-UM",
-            "image": "images/orbitalThumbnail.png",
-            "imageAlt": "OrbiGoal Video Thumbnail",
+            "title": "TurtleTrackr",
+            "description": "A web application for users to track spending habits and make savings goals.",
+            "url": "https://turtletrackr.web.app/auth/landing/",
+            "image": "images/turtletrackr.png",
+            "imageAlt": "TurtleTrackr",
             "techStack": [
-                "React Native",
-                "TypeScript",
-                "Firebase",
-                "Pandas"
+                "Vue",
+                "JavaScript",
+                "Firebase"
             ]
         },
         {
-            "title": "Social Impact Catalyst",
-            "description": "Created a lo-fi front-end prototype for online application for budding local artists to promote their artwork. Learnt and implemented good UI/UX design practises to ensure smooth workflow. Eventually attained top 5 positions in Social Impact Catalyst case competition.",
-            "url": "https://www.instagram.com/thedoodlingstory/",
-            "image": "images/sic.png",
-            "imageAlt": "Social Impact Catalyst",
+            "title": "Photomate",
+            "description": "A simple website designed to replicate the experience of a self photobooth, allowing users to make and design photostrips.",
+            "url": "https://photo-mate.vercel.app/",
+            "image": "images/photomate.jpg",
+            "imageAlt": "Photomate",
             "techStack": [
-                "Figma",
-                "Storytelling"
+                "React",
+                "TypeScript",
+                "Tailwind CSS"
             ]
         },
         {
@@ -45,6 +45,30 @@
                 "JavaScript",
                 "HTML",
                 "CSS"
+            ]
+        },
+        {
+            "title": "OrbiGoal",
+            "description": "A football analytics app built to provide in-depth match analysis and predictions using React Native and Firebase. It integrates machine learning with user-friendly interfaces to make data-driven insights accessible to football enthusiasts.",
+            "url": "https://youtu.be/FdemtcTx-UM",
+            "image": "images/orbitalThumbnail.png",
+            "imageAlt": "OrbiGoal Video Thumbnail",
+            "techStack": [
+                "React Native",
+                "TypeScript",
+                "Firebase",
+                "Pandas"
+            ]
+        },
+        {
+            "title": "Social Impact Catalyst",
+            "description": "Created a lo-fi front-end prototype for online application for budding local artists to promote their artwork. Learnt and implemented good UI/UX design practises to ensure smooth workflow. Eventually attained top 5 positions in Social Impact Catalyst case competition.",
+            "url": "https://www.instagram.com/thedoodlingstory/",
+            "image": "images/sic.png",
+            "imageAlt": "Social Impact Catalyst",
+            "techStack": [
+                "Figma",
+                "Storytelling"
             ]
         }
     ]
